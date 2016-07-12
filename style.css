@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+element.style {
+}
+@media screen and (max-width: 510px)
+.navbar-default .nav li a {
+    color: #FFFFFF;
+    font-family: "quicksandbold";
+    font-size: 13px;
+    letter-spacing: 3px;
+    border-style: inset;
+    border-color: pink;
+    
+}
