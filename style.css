@@ -1,5 +1,5 @@
 /*
- Theme Name:   Twenty Fifteen Child
+ Theme Name:   mytheme
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Twenty Fifteen Child Theme
  Author:       John Doe
@@ -11,15 +11,35 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-element.style {
+
+body {
+	background-color: #FFC107;
+	color: #63366d;
+	font-family: 'Poiret One', cursive;
 }
-@media screen and (max-width: 510px)
-.navbar-default .nav li a {
-    color: #FFFFFF;
-    font-family: "quicksandbold";
-    font-size: 13px;
-    letter-spacing: 3px;
-    border-style: inset;
-    border-color: pink;
-    
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: #E91E63;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#000;
+}
+a {
+    color: #e308f9;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:rgba(251, 177, 10, 0.62);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
+	background-color: #E91E63;
+}
+.navbar-default .navbar-brand{
+    color: #000;
+}
+.navbar-default{
+	background-color: #E91E63;
+	border-color: #E91E63;
 }
