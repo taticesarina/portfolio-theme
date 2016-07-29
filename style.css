@@ -11,17 +11,17 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 
 body {
 	background-color: #E91E63;
 	color: #B6B6B6;
 	font-family: 'Poiret One', cursive;
-}
 
 
-.navbar-default .navbar-nav>li>a{
-	color:#000;
-}
+}	
+
 a {
     color: #FFFFFF;
     text-decoration: none;
@@ -44,8 +44,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	border-color: #C2185B;
 	background-color: #C2185B;
-	
+
 }
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+	padding: 30px 36px;
+    font-size: 30px;
+    line-height: 1.33333;
+    border-radius: 66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
